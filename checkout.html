@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Food Ordering System</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <header>
+        <h1>Checkout</h1>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Your Order confirmation area:</h2>
+        <div id="order-details"></div> 
+          <!-- Customer Information -->
+        <form id="customer-info">
+            
+            <label for="firstname">firstname:</label>
+            <input type="text" id="firstname" name="firstname" required><br><br>
+            
+            <label for="address">address:</label>
+            <input type="text" id="address" name="address" required><br><br>
+            
+            <label for="contact">contact:</label>
+            <input type="text" id="contact" name="contact" required><br><br>
+            
+            <h3>item:</h3>
+            
+            <!-- Radio Buttons for Items -->
+            <input type="radio" id="pasta" name="item" value="pasta">pasta
+            <br>
+            <input type="radio" id="noodles" name="item" value="noodles">noodles
+            <br>
+            <input type="radio" id="friedrice" name="item" value="friedrice">friedrice
+             <br>
+            
+            <input type="radio" id="kottu" name="item" value="kottu">kottu
+             <br>
+           <input type="radio" id="biriyani" name="item" value="biriyani">biriyani
+           <br>
+            <input type="radio" id="yellowrice" name="item" value="yellowrice">yellowrice
+ 
+            <br>
+            <input type="radio" id="vegisalad" name="item" value="vegisalad">vegisalad
+            <br>
+           <input type="radio" id="chicken" name="item" value="chicken">chicken
+            <br>
+            
+            <input type="radio" id="nasiguran" name="item" value="nasiguran">nasiguran
+            <br>
+           <input type="radio" id="parata" name="item" value="parata">parata
+ 
+ 
+            <input type="submit" name="submit" value="submit">    
+
+            
+           
+
+
+        
+    </main>
+    <script src="checkout.js"></script>
+</body>
+</html>
